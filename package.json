@@ -1,0 +1,18 @@
+{
+  "name": "token-migration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js",
+    "migrate": "node -r esm migrate-tokens.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Milen Radkov <milenradkov@me.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@aeternity/aepp-sdk": "^6.0.0",
+    "web3": "^1.2.1",
+    "esm": "^3.2.25"
+  }
+}
